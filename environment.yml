@@ -1,0 +1,9 @@
+name: ml-gpu
+channels:
+  - defaults
+dependencies:
+  - python
+  - conda-forge::jupyterlab
+  - tensorflow-gpu=2.16
+  - numpy
+  - matplotlib
